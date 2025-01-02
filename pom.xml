@@ -20,6 +20,19 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+         
+         <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>http://3.16.168.54:8081/repository/maven-releases/</url>
+        </repository>
+    </repositories>
+         <repositories>
+        <repository>
+            <id>nexus</id>
+            <url>http://3.16.168.54:8081/repository/maven-snapshots/</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
@@ -30,3 +43,6 @@
         </plugins>
     </build>
 </project>
+
+
+
